@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  font-family: 'Shadows Into Light Two', cursive;
+  /* font-family: 'JetBrains Mono', monospace; */
+}
+
+.art-card {
+  margin: 20px;
+}
+
+.art-card-image {
+  border-radius: 10px;
+  width: 345px;
+  height: 345px;
+  box-shadow: 0px 0px 0px 3px 1px #ccc;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.art-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.art-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.art-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+img {
+  pointer-events: none;
+}
