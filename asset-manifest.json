@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1ab2f20b.chunk.css",
-    "main.js": "/portfolio/static/js/main.2df2e052.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2df2e052.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1a5b905a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1a5b905a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5398d1f4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5398d1f4.js.map",
     "static/css/2.95f25948.chunk.css": "/portfolio/static/css/2.95f25948.chunk.css",
@@ -16,9 +16,12 @@
     "static/js/2.c8fcdebd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c8fcdebd.chunk.js.LICENSE.txt",
     "static/media/aero_1.f4352de2.JPG": "/portfolio/static/media/aero_1.f4352de2.JPG",
     "static/media/batman.80f58e3e.jpg": "/portfolio/static/media/batman.80f58e3e.jpg",
+    "static/media/car_view.b26a35a1.JPG": "/portfolio/static/media/car_view.b26a35a1.JPG",
     "static/media/dubai_1.194a8727.JPG": "/portfolio/static/media/dubai_1.194a8727.JPG",
     "static/media/eye.84ece0f5.jpg": "/portfolio/static/media/eye.84ece0f5.jpg",
     "static/media/fox.10f97450.jpg": "/portfolio/static/media/fox.10f97450.jpg",
+    "static/media/grandcentral.f736098d.JPG": "/portfolio/static/media/grandcentral.f736098d.JPG",
+    "static/media/niagara.3b8219e9.JPG": "/portfolio/static/media/niagara.3b8219e9.JPG",
     "static/media/owtc_1.dd555d6d.JPG": "/portfolio/static/media/owtc_1.dd555d6d.JPG",
     "static/media/scoobydoo.14c461b6.jpg": "/portfolio/static/media/scoobydoo.14c461b6.jpg",
     "static/media/tomjerry.c181d129.jpg": "/portfolio/static/media/tomjerry.c181d129.jpg"
@@ -28,6 +31,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.c8fcdebd.chunk.js",
     "static/css/main.1ab2f20b.chunk.css",
-    "static/js/main.2df2e052.chunk.js"
+    "static/js/main.1a5b905a.chunk.js"
   ]
 }
