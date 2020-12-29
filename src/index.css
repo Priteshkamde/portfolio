@@ -48,3 +48,11 @@ code {
 img {
   pointer-events: none;
 }
+
+.font-bolder-hover:hover {
+  font-weight: bolder;
+}
+
+xyz {
+  background-size: contain;
+}

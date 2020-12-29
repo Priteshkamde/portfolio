@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Carousel from '../components/Carousel'
-
+import Travel from '../components/Travel'
 
 function HomePage(props) {
     return (
@@ -12,6 +12,7 @@ function HomePage(props) {
             text={props.text} 
             />
             <Carousel />
+            <Travel />
         </div>
     )
 }
