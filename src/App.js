@@ -22,7 +22,8 @@ class App extends Component {
       ],
 
       home : {
-        title : 'Be Relentless',
+        title : 'Be Impeccable',
+        // title : Phenomenal, Evocative
         subTitle : 'Arts that make a Difference',
         text : 'Checkout below' 
       },
