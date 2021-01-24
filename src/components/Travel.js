@@ -34,7 +34,7 @@ function Travel() {
                         <h1 className="display-3 font-weight-bolder">
                             Travel & Photography 
                         </h1>
-                        <Button variant="primary font-weight-bold p-3">Learn more</Button>
+                        {/* <Button variant="primary font-weight-bold p-3">Learn more</Button> */}
                         <hr/>
                     </Col>
                 </Row>
@@ -50,7 +50,7 @@ function Travel() {
                     <Card style={cardStyle}>
                         <Card.Img style={cardImageStyle} variant="" src={aero_1} />
                         <Card.Body>
-                        <Card.Title>aero 1</Card.Title>
+                        <Card.Title>View from Aeroplane</Card.Title>
                         </Card.Body>
                     </Card>
 
@@ -73,9 +73,9 @@ function Travel() {
                     <Card style={cardStyle}>
                         <Card.Img style={cardImageStyle} variant="top" src={dubai_1} />
                         <Card.Body>
-                        <Card.Title>dubai 1</Card.Title>
+                        <Card.Title>Burj Khalifa ~ Dubai</Card.Title>
                         <Card.Text>
-                            - 
+                            
                         </Card.Text>
                         </Card.Body>
                     </Card>
@@ -120,10 +120,10 @@ function Travel() {
                         </footer>
                         </blockquote> */}
                         <Card.ImgOverlay className="h-100 d-flex flex-column justify-content-end">
-                            <Card.Title className="text-light">Card title</Card.Title>
+                            {/* <Card.Title className="text-light">Card title</Card.Title> */}
                             <Card.Text className="text-light">
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                                {/* This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer. */}
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
@@ -133,13 +133,13 @@ function Travel() {
                         <Card.Img style={cardImageStyle} src={niagara} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            niagara
+                            Niagara ~ US
                         </p>
-                        <footer className="blockquote-footer">
+                        {/* <footer className="blockquote-footer">
                             <small className="text-muted">
                             Someone famous in <cite title="Source Title">Source Title</cite>
                             </small>
-                        </footer>
+                        </footer> */}
                         </blockquote>
                     </Card>
 
@@ -147,13 +147,13 @@ function Travel() {
                         <Card.Img style={cardImageStyle} src={owtc_1} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            one wtc
+                            One WTC ~ US
                         </p>
-                        <footer className="blockquote-footer">
+                        {/* <footer className="blockquote-footer">
                             <small className="text-muted">
                             Someone famous in <cite title="Source Title">Source Title</cite>
                             </small>
-                        </footer>
+                        </footer> */}
                         </blockquote>
                     </Card>
 
@@ -161,13 +161,13 @@ function Travel() {
                         <Card.Img style={cardImageStyle} src={grandcentral} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            grandcentral
+                            Grand Central Terminal ~ NYC, US
                         </p>
-                        <footer className="blockquote-footer">
+                        {/* <footer className="blockquote-footer">
                             <small className="text-muted">
                             Someone famous in <cite title="Source Title">Source Title</cite>
                             </small>
-                        </footer>
+                        </footer> */}
                         </blockquote>
                     </Card>
 {/* 
