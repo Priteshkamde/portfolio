@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1ab2f20b.chunk.css",
-    "main.js": "/portfolio/static/js/main.4e3f1460.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4e3f1460.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.16f61682.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.16f61682.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5398d1f4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5398d1f4.js.map",
     "static/css/2.95f25948.chunk.css": "/portfolio/static/css/2.95f25948.chunk.css",
-    "static/js/2.c8fcdebd.chunk.js": "/portfolio/static/js/2.c8fcdebd.chunk.js",
-    "static/js/2.c8fcdebd.chunk.js.map": "/portfolio/static/js/2.c8fcdebd.chunk.js.map",
+    "static/js/2.a9ca421f.chunk.js": "/portfolio/static/js/2.a9ca421f.chunk.js",
+    "static/js/2.a9ca421f.chunk.js.map": "/portfolio/static/js/2.a9ca421f.chunk.js.map",
     "static/js/3.559371ce.chunk.js": "/portfolio/static/js/3.559371ce.chunk.js",
     "static/js/3.559371ce.chunk.js.map": "/portfolio/static/js/3.559371ce.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.95f25948.chunk.css.map": "/portfolio/static/css/2.95f25948.chunk.css.map",
     "static/css/main.1ab2f20b.chunk.css.map": "/portfolio/static/css/main.1ab2f20b.chunk.css.map",
-    "static/js/2.c8fcdebd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c8fcdebd.chunk.js.LICENSE.txt",
+    "static/js/2.a9ca421f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9ca421f.chunk.js.LICENSE.txt",
     "static/media/aero_1.f4352de2.JPG": "/portfolio/static/media/aero_1.f4352de2.JPG",
     "static/media/batman.80f58e3e.jpg": "/portfolio/static/media/batman.80f58e3e.jpg",
+    "static/media/cafe_api_walk_through.d7fbd371.gif": "/portfolio/static/media/cafe_api_walk_through.d7fbd371.gif",
     "static/media/car_view.b26a35a1.JPG": "/portfolio/static/media/car_view.b26a35a1.JPG",
     "static/media/dubai_1.194a8727.JPG": "/portfolio/static/media/dubai_1.194a8727.JPG",
     "static/media/eye.84ece0f5.jpg": "/portfolio/static/media/eye.84ece0f5.jpg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.5398d1f4.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.c8fcdebd.chunk.js",
+    "static/js/2.a9ca421f.chunk.js",
     "static/css/main.1ab2f20b.chunk.css",
-    "static/js/main.4e3f1460.chunk.js"
+    "static/js/main.16f61682.chunk.js"
   ]
 }
