@@ -11,7 +11,7 @@ function AboutPage(props) {
             <Content>
             <p>Hello, my name is Pritesh. 
 
-            I'm a Computer Engineer with experience in MongoDB, React JS & Spring Boot</p>
+            I'm a Software Engineer with experience in MongoDB, React JS & Spring Boot</p>
 
             <p>I'm constantly learning new things. currently those things include gaining more experience with APIs, MongoDB, React</p>
 

@@ -54,8 +54,8 @@ function Travel() {
                         </Card.Body>
                     </Card>
 
-                    <Card style={cardStyle} className="p-3">
-                        <blockquote className="blockquote mb-0 card-body">
+                    {/* <Card style={cardStyle} className="p-3">
+                        <blockquote className="blockquote mb-0 card-body text-center">
                         <p>
                             Quote 1
                         </p>
@@ -68,7 +68,7 @@ function Travel() {
                             </small>
                         </footer>
                         </blockquote>
-                    </Card>
+                    </Card> */}
 
                     <Card style={cardStyle}>
                         <Card.Img style={cardImageStyle} variant="top" src={dubai_1} />
@@ -80,10 +80,10 @@ function Travel() {
                         </Card.Body>
                     </Card>
 
-                    <Card style={cardStyle} bg="" text="dark" className="text-center p-3">
+                    {/* <Card style={cardStyle} bg="" text="dark" className="text-center p-3">
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Quote 
+                            Quote center ?
                         </p>
                         <footer className="blockquote-footer">
                             <small text="light">
@@ -91,7 +91,7 @@ function Travel() {
                             </small>
                         </footer>
                         </blockquote>
-                    </Card>
+                    </Card> */}
 
                     {/* <Card style={cardStyle}>
                         <Card.Img style={cardImageStyle} src={car_view} />

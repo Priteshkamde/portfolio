@@ -21,7 +21,7 @@ const projectdata = {
             name : 'Nasa Stellar',
             imageLink : gif2,
             details : [
-                'A React App •', 
+                'A React App • APOD ~ Astronomy Picture of the Day', 
                 'NASA API',
                 'React JS',
                 'React Bootstrap', 
