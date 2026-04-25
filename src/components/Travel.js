@@ -6,6 +6,7 @@ import owtc_1 from '../assets/travelimages/owtc_1.JPG'
 import niagara from '../assets/travelimages/niagara.JPG'
 import car_view from '../assets/travelimages/car_view.JPG'
 import grandcentral from '../assets/travelimages/grandcentral.JPG'
+import boats from '../assets/travelimages/boats.jpeg'
 
 function Travel() {
     const cardStyle = {
@@ -22,6 +23,14 @@ function Travel() {
         borderRadius : 10,
         // height : 500,
         // width : '100%',
+        backgroundSize : 'contain',
+    }
+
+    const horizontalCardImageStyle = {
+        objectFit: 'cover',
+        width: '100%',
+        height: '30vh',
+        borderRadius : 10,
         backgroundSize : 'contain',
     }
 
@@ -162,6 +171,20 @@ function Travel() {
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
                             Grand Central Terminal ~ NYC, US
+                        </p>
+                        {/* <footer className="blockquote-footer">
+                            <small className="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer> */}
+                        </blockquote>
+                    </Card>
+
+                    <Card style={{...cardStyle, width: '100%'}}>
+                        <Card.Img style={horizontalCardImageStyle} src={boats} />
+                        <blockquote className="blockquote mb-0 card-body">
+                        <p>
+                            Boats at Shoreline
                         </p>
                         {/* <footer className="blockquote-footer">
                             <small className="text-muted">
