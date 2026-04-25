@@ -1,23 +1,18 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import Carousel from '../components/Carousel'
-import Travel from '../components/Travel'
-import WaterColors from '../components/WaterColors'
+import React from "react";
+import Hero from "../components/Hero";
+import Carousel from "../components/Carousel";
+import Travel from "../components/Travel";
+import WaterColors from "../components/Watercolors";
 
 function HomePage(props) {
-    return (
-        <div>
-            <Hero 
-            title={props.title} 
-            subTitle={props.subTitle} 
-            text={props.text} 
-            />
-            <Carousel />
-            <WaterColors />
-            <Travel />
-            
-        </div>
-    )
+  return (
+    <div>
+      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <Carousel />
+      <WaterColors />
+      <Travel />
+    </div>
+  );
 }
 
-export default HomePage
+export default HomePage;
