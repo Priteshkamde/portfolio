@@ -4,7 +4,6 @@ import {
   Container,
   Row,
   Col,
-  Button,
   Card,
   CardColumns,
 } from "react-bootstrap";
@@ -37,7 +36,7 @@ function WaterColors() {
         <Row className="justify-content-center py-5">
           <Col md={8} sm={12}>
             <h1 className="display-3 font-weight-bolder">
-              Travel & Photography
+              WaterColors
             </h1>
             {/* <Button variant="primary font-weight-bold p-3">Learn more</Button> */}
             <hr />
