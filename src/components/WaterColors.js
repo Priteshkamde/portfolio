@@ -1,11 +1,13 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col, Button, Card, CardColumns } from 'react-bootstrap'
-import yosemite from '../assets/squareartimages/inspired-by-yosemite.jpg'
-import evening from '../assets/squareartimages/evening-at-highway.jpg'
-import boats from '../assets/squareartimages/boats.jpg'
-import cali from '../assets/squareartimages/california-sunset.jpg'
+import aero_1 from '../assets/travelimages/aero_1.JPG'
+import dubai_1 from '../assets/travelimages/dubai_1.JPG'
+import owtc_1 from '../assets/travelimages/owtc_1.JPG'
+import niagara from '../assets/travelimages/niagara.JPG'
+import car_view from '../assets/travelimages/car_view.JPG'
+import grandcentral from '../assets/travelimages/grandcentral.JPG'
 
-function WaterColors() {
+function Travel() {
     const cardStyle = {
         borderRadius : 10,
         objectFit: 'cover',
@@ -69,9 +71,9 @@ function WaterColors() {
                     </Card> */}
 
                     <Card style={cardStyle}>
-                        <Card.Img style={cardImageStyle} variant="top" src={yosemite} />
+                        <Card.Img style={cardImageStyle} variant="top" src={dubai_1} />
                         <Card.Body>
-                        <Card.Title>Inspired by Yosemite</Card.Title>
+                        <Card.Title>Burj Khalifa ~ Dubai</Card.Title>
                         <Card.Text>
                             
                         </Card.Text>
@@ -128,10 +130,10 @@ function WaterColors() {
 
                     
                     <Card style={cardStyle}>
-                        <Card.Img style={cardImageStyle} src={evening} />
+                        <Card.Img style={cardImageStyle} src={niagara} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Highway
+                            Niagara ~ US
                         </p>
                         {/* <footer className="blockquote-footer">
                             <small className="text-muted">
@@ -142,10 +144,10 @@ function WaterColors() {
                     </Card>
 
                     <Card style={cardStyle}>
-                        <Card.Img style={cardImageStyle} src={boats} />
+                        <Card.Img style={cardImageStyle} src={owtc_1} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Boats at Shoreline
+                            One WTC ~ US
                         </p>
                         {/* <footer className="blockquote-footer">
                             <small className="text-muted">
@@ -156,10 +158,10 @@ function WaterColors() {
                     </Card>
 
                     <Card style={cardStyle}>
-                        <Card.Img style={cardImageStyle} src={cali} />
+                        <Card.Img style={cardImageStyle} src={grandcentral} />
                         <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            California Sunset
+                            Grand Central Terminal ~ NYC, US
                         </p>
                         {/* <footer className="blockquote-footer">
                             <small className="text-muted">
@@ -188,36 +190,4 @@ function WaterColors() {
     )
 }
 
-export default WaterColors
-
-
-
-
-// {
-//     id : 5,
-//     title : 'Inspired by Yosemite',
-//     subTitle : 'Watercolor Art',
-//     imgSrc : yosemite,
-//     selected : false
-// },
-// {
-//     id : 6,
-//     title : 'Inspired by Yosemite',
-//     subTitle : 'Watercolor Art',
-//     imgSrc : cali,
-//     selected : false
-// },
-// {
-//     id : 7,
-//     title : 'Inspired by Yosemite',
-//     subTitle : 'Watercolor Art',
-//     imgSrc : evening,
-//     selected : false
-// },
-// {
-//     id : 8,
-//     title : 'Inspired by Yosemite',
-//     subTitle : 'Watercolor Art',
-//     imgSrc : boats,
-//     selected : false
-// },
+export default Travel

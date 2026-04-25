@@ -12,7 +12,9 @@ function HomePage(props) {
             text={props.text} 
             />
             <Carousel />
+            <WaterColors />
             <Travel />
+            
         </div>
     )
 }
