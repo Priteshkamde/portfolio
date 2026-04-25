@@ -6,7 +6,7 @@ import owtc_1 from '../assets/travelimages/owtc_1.JPG'
 import niagara from '../assets/travelimages/niagara.JPG'
 import car_view from '../assets/travelimages/car_view.JPG'
 import grandcentral from '../assets/travelimages/grandcentral.JPG'
-import boats from '../assets/travelimages/boats.jpeg'
+import boats from '../assets/travelimages/boats.jpg'
 
 function Travel() {
     const cardStyle = {
