@@ -15,13 +15,13 @@ import cali from "../assets/squareartimages/california-sunset.jpg";
 function WaterColors() {
   const cardStyle = {
     borderRadius: 10,
-    objectFit: "cover",
+    objectFit: "contain",
     width: "100%",
     boxShadow: "0 0 15px 0 rgba(50, 50, 50, 0.2)",
   };
 
   const cardImageStyle = {
-    objectFit: "cover",
+    objectFit: "contain",
     width: "100%",
     height: "50vh",
     borderRadius: 10,
@@ -32,7 +32,7 @@ function WaterColors() {
 
 
   const horizontalCardImageStyle = {
-    objectFit: 'cover',
+    objectFit: 'contain',
     width: '100%',
     height: '30vh',
     borderRadius : 10,
