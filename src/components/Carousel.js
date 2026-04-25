@@ -11,7 +11,10 @@ import tomjerry from '../assets/squareartimages/tomjerry.jpg'
 import eye from '../assets/squareartimages/eye.jpg'
 import batman from '../assets/squareartimages/batman.jpg'
 import scoobydoo from '../assets/squareartimages/scoobydoo.jpg'
-import yosemite from '../assets/squareartimages/inspired-by-yosemite.jpeg'
+import yosemite from '../assets/squareartimages/inspired-by-yosemite.jpg'
+import evening from '../assets/squareartimages/evening-at-highway.jpg'
+import boats from '../assets/squareartimages/boats.jpg'
+import cali from '../assets/squareartimages/california-sunset.jpg'
 
 import { Container, Row } from 'react-bootstrap'
 
@@ -62,6 +65,27 @@ export class Carousel extends Component {
                     title : 'Inspired by Yosemite',
                     subTitle : 'Watercolor Art',
                     imgSrc : yosemite,
+                    selected : false
+                },
+                {
+                    id : 5,
+                    title : 'Inspired by Yosemite',
+                    subTitle : 'Watercolor Art',
+                    imgSrc : cali,
+                    selected : false
+                },
+                {
+                    id : 5,
+                    title : 'Inspired by Yosemite',
+                    subTitle : 'Watercolor Art',
+                    imgSrc : evening,
+                    selected : false
+                },
+                {
+                    id : 5,
+                    title : 'Inspired by Yosemite',
+                    subTitle : 'Watercolor Art',
+                    imgSrc : boats,
                     selected : false
                 },
              ]
