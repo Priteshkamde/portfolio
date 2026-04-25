@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4fe91fb8.css",
-    "main.js": "/portfolio/static/js/main.f98ce4e3.js",
+    "main.js": "/portfolio/static/js/main.efdaa413.js",
     "static/js/422.e90bbfd4.chunk.js": "/portfolio/static/js/422.e90bbfd4.chunk.js",
     "static/media/nasa-stellar-walk-th.gif": "/portfolio/static/media/nasa-stellar-walk-th.1348eec315a45e916546.gif",
     "static/media/eye.jpg": "/portfolio/static/media/eye.84ece0f54647061c775e.jpg",
@@ -22,11 +22,11 @@
     "static/media/car_view.JPG": "/portfolio/static/media/car_view.b26a35a1ab058fe80267.JPG",
     "index.html": "/portfolio/index.html",
     "main.4fe91fb8.css.map": "/portfolio/static/css/main.4fe91fb8.css.map",
-    "main.f98ce4e3.js.map": "/portfolio/static/js/main.f98ce4e3.js.map",
+    "main.efdaa413.js.map": "/portfolio/static/js/main.efdaa413.js.map",
     "422.e90bbfd4.chunk.js.map": "/portfolio/static/js/422.e90bbfd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fe91fb8.css",
-    "static/js/main.f98ce4e3.js"
+    "static/js/main.efdaa413.js"
   ]
 }
