@@ -30,6 +30,15 @@ function WaterColors() {
     backgroundSize: "contain",
   };
 
+
+  const horizontalCardImageStyle = {
+    objectFit: 'cover',
+    width: '100%',
+    height: '30vh',
+    borderRadius : 10,
+    backgroundSize : 'contain',
+}
+
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
@@ -121,18 +130,6 @@ function WaterColors() {
           </Card>
 
           <Card style={cardStyle}>
-            <Card.Img style={cardImageStyle} src={boats} />
-            <blockquote className="blockquote mb-0 card-body">
-              <p>Boats at Shoreline</p>
-              {/* <footer className="blockquote-footer">
-                            <small className="text-muted">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer> */}
-            </blockquote>
-          </Card>
-
-          <Card style={cardStyle}>
             <Card.Img style={cardImageStyle} src={cali} />
             <blockquote className="blockquote mb-0 card-body">
               <p>California Sunset</p>
@@ -143,6 +140,21 @@ function WaterColors() {
                         </footer> */}
             </blockquote>
           </Card>
+
+          <Card style={{...cardStyle, width: '100%'}}>
+                        <Card.Img style={horizontalCardImageStyle} src={boats} />
+                        <blockquote className="blockquote mb-0 card-body">
+                        <p>
+                            Boats at Shoreline
+                        </p>
+                        {/* <footer className="blockquote-footer">
+                            <small className="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer> */}
+                        </blockquote>
+                    </Card>
+
           {/* 
                     <Card className="bg-dark text-white">
                     <Card.Img src={grandcentral} alt="Card image" />
